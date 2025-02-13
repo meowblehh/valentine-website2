@@ -3,10 +3,10 @@ const yesButton = document.getElementById("yesButton");
 const gif = document.getElementById("gif");
 
 const gifs = [
-    "https://tenor.com/view/bubu-dudu-sseeyall-gif-12611896631449379850",
-    "https://tenor.com/view/bubu-bubu-dudu-dudu-bear-karadi-gif-9121478983673994842",
-    "https://tenor.com/view/bubu-dudu-bubu-yier-bubbu-dudu-gif-3678995533591623282",
-    "https://tenor.com/view/bubu-bubu-dudu-bubbu-bear-bhalu-gif-12782870542608816906"
+    "https://media.tenor.com/images/a006d20a2b98b5067e1a82584b330944/tenor.gif",
+    "https://media.tenor.com/images/1b6c36ee1f6d28fe16f0133f3f156d77/tenor.gif",
+    "https://media.tenor.com/images/30ed517e16808a510c7e5d28cbd7554f/tenor.gif",
+    "https://media.tenor.com/images/2079b88f195fe59a9b5d96ea507cd289/tenor.gif"
 ];
 
 let noClickCount = 0;
