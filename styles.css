@@ -1,0 +1,63 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffedf0;
+    color: #ff66b2;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #ff4d94;
+    text-shadow: 2px 2px 4px #fff;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+button {
+    font-size: 1.5em;
+    padding: 15px 30px;
+    margin: 10px;
+    border: none;
+    border-radius: 25px;
+    background-color: #ff66b2;
+    color: white;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #ff4d94;
+}
+
+button:active {
+    transform: scale(1.1);
+}
+
+#gifContainer {
+    margin-top: 30px;
+}
+
+img {
+    width: 250px;
+    height: 250px;
+    border-radius: 15px;
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+#yesButton {
+    transition: all 0.3s ease;
+}
